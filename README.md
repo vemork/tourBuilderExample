@@ -22,10 +22,3 @@ El propósito principal del patrón Builder es separar la construcción de un ob
 4. **Tour Package (Producto)**: Representa el objeto complejo que se construirá.
 
 5. **Travel Agent (Director)**: Construye un objeto usando la interfaz Builder.
-
-## Participantes
-
-- **Builder**:         Especifica una interfaz abstracta para crear partes de un objeto Product.
-- **ConcreteBuilder**: Construye y ensambla partes del producto a través de la implementación de la interfaz Builder.
-- **Product**:         Representa o define un producto complejo.
-- **Director**:        Construye un objeto utilizando la interfaz Builder.
