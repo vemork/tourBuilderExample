@@ -1,8 +1,10 @@
 # Patrón de Diseño: Builder
 
+
 ## Introducción
 
 El patrón de diseño **Builder** es un patrón creacional que se utiliza para construir objetos complejos paso a paso. A diferencia de otros patrones creacionales, no utiliza un solo constructor, sino que permite la creación de una variedad de representaciones de un objeto.
+
 
 ## Propósito
 
@@ -18,7 +20,9 @@ El propósito principal del patrón Builder es separar la construcción de un ob
 - Basic    Tour Package Builder
 - Complete Tour Package Builder
 - Deluxe   Tour Package Builder
+  
 
 4. **Tour Package (Producto)**: Representa el objeto complejo que se construirá.
+   
 
-5. **Travel Agent (Director)**: Construye un objeto usando la interfaz Builder.
+6. **Travel Agent (Director)**: Construye un objeto usando la interfaz Builder.
